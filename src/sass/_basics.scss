@@ -1,0 +1,13 @@
+ /* BASIC STYLES */
+body {
+    font-family: $font-prim, $font-sec;
+    font-size:1em;
+    line-height:2em;
+    background: $bg $white repeat-x;
+    margin:0;
+}
+main {
+    width:940px;
+    margin:0 auto;
+    padding:0 10px;
+}

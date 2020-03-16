@@ -1,0 +1,139 @@
+/* BASIC STYLES */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+  background: url("../images/bg.gif") #fff repeat-x;
+  margin: 0; }
+  
+main {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+/* NAVIGATION */
+figure {
+  width: 400px;
+  height: 190px;
+  background: url("../images/logo.png") no-repeat 0 50px;
+  float: left;
+  display: block;
+  margin: 0; }
+
+nav {
+  width: 540px;
+  height: 190px;
+  float: left;
+  text-align: right; }
+  nav ul {
+    list-style-type: none;
+    margin-top: 95px; }
+  nav li {
+    display: inline;
+    font-size: 0.8em;
+    margin-right: 10px; }
+  nav a {
+    color: #E65C43;
+    text-decoration: none;
+    letter-spacing: -0.01em; }
+  nav a:hover {
+    color: #fff; }
+
+/* HEADER */
+header {
+  width: inherit;
+  clear: both;
+  text-align: center;
+  padding-top: 40px; }
+  header img {
+    max-width: 100%;
+    height: auto; }
+  header h1 {
+    color: #E65C43;
+    font-weight: 100;
+    font-size: 4em;
+    line-height: 0; }
+  header h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 0;
+    margin-bottom: 70px; }
+  header h3 {
+    color: #666;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 0;
+    margin-bottom: 50px; }
+
+/* CONTENT */
+#headline {
+  width: 100%;
+  height: 130px;
+  background: #F25C43;
+  text-align: center;
+  margin: 0 auto; }
+  #headline h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 100;
+    padding-top: 50px; }
+
+#content {
+  width: 940px;
+  margin: 20px auto; }
+  #content h3 {
+    color: #666;
+    font-size: 2em;
+    font-weight: 400; }
+
+#content #products {
+  width: 460px;
+  float: left; }
+  #content #products img {
+    float: left;
+    margin-right: 20px; }
+  #content #products article {
+    margin-bottom: 40px; }
+  #content #products h4 {
+    line-height: 1em; }
+
+#content #testimonials {
+  width: 460px;
+  float: right; }
+
+/* FOOTER */
+.greybar {
+  width: 100%;
+  height: 90px;
+  background: #F5F6F6;
+  clear: both;
+  padding-top: 30px; }
+
+footer {
+  width: 100%;
+  height: 120px;
+  background: #30353D;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px; }
+
+.social-media {
+  margin: 0 auto;
+  width: 165px; }
+  .social-media div {
+    float: left;
+    margin-right: 5px; }
+  .social-media a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-indent: -9999px; }
+  .social-media div.one {
+    background: url("../images/social-media.png") 0 0; }
+  .social-media div.two {
+    background: url("../images/social-media.png") -38px 0; }
+  .social-media div.three {
+    background: url("../images/social-media.png") -76px 0; }
+  .social-media div.four {
+    background: url("../images/social-media.png") -114px 0; }
