@@ -1,0 +1,9 @@
+#node
+node_modules
+
+# gulp
+gulpfile.js
+
+# json
+*package.json
+*package-lock.json
